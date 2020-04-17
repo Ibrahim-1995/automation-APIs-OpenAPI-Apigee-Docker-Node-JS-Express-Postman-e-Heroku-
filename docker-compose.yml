@@ -18,6 +18,7 @@ services:
       - 8081:8081
     environment:
       ME_CONFIG_MONGODB_SERVER: server-mongo-db
+      
       ME_CONFIG_MONGODB_ENABLE_ADMIN: 'false'
       ME_CONFIG_BASICAUTH_USERNAME: user
       ME_CONFIG_BASICAUTH_PASSWORD: 1
